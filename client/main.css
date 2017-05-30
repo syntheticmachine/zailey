@@ -1,0 +1,549 @@
+body {
+  background-color: #f9f9f9 !important;
+  font-family: 'Sofia Pro' !important;
+  padding-top: 35px;
+}
+.Index {
+  background: #f9f9f9 !important;
+  padding-bottom: 32px;
+  padding-top: 12px;
+}
+.small-container {
+  max-width: 725px;
+  padding-top: 65px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+.small-container h4 {
+  display: inline-block;
+  padding-bottom: 50px;
+  margin-top: 13px !important;
+  width: 100%;
+  padding-left: 12px;
+}
+a {
+  outline: none;
+}
+a:active, a:focus, a:visited {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #555 !important;
+}
+.btn-primary, .btn-success {
+  color: #fff;
+  background-color: #32CE6F !important;
+  border: none !important;
+  padding: 14px 28px !important;
+  padding-top: 16px !important;
+  font-size: 16px !important;
+  box-shadow: rgba(0,0,0,0.069) 0 10px 28px !important;
+  transition: all .3s ease !important;
+}
+.btn-primary:hover, .btn-success:hover {
+  background-color: #28A559 !important;
+  transform: translateY(-5px) !important;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #32CE6F;
+  border: none;
+  border-radius: 0px;
+  margin: 0px;
+  box-shadow: rgba(0,0,0,0.069) 0 10px 28px;
+}
+header .container {
+  max-width: 99%;
+  width: 100%;
+}
+header a {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  padding: 14px 17px;
+  padding-top: 17px;
+  transition: all .3s ease;
+}
+header a:hover {
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+}
+header i {
+  font-size: 20px;
+  vertical-align: middle;
+  padding-right: 5px;
+  color: rgba(0,0,0,.2);
+}
+.navigation {
+  border-left: 1px solid rgba(255,255,255,.3);
+}
+.left-nav {
+  padding-left: 0px !important;
+}
+
+.logo-section {
+  padding-left: 4px !important;
+  padding-top: 3px;
+}
+.zailey-brand a {
+  padding: 6px 0px;
+}
+.zailey-brand img {
+  height: 32px;
+  margin-top: 4px;
+}
+
+.page-title {
+  text-align: center;
+  padding-bottom: 30px;
+  color: rgba(0,0,0,.7);
+}
+
+.form-control {
+  padding: 22px 4px !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+  margin-bottom: 32px !important;
+  border-radius: 0px !important;
+  outline: none !important;
+}
+select.form-control {
+  -webkit-appearance: none;
+  color: #888;
+  background: transparent;
+  padding: 2px !important;
+  min-height: 45px;
+}
+.input-field {
+  margin-bottom: 28px;
+  display: inline-block;
+  width: 100%;
+}
+label {
+  color: #9e9e9e;
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  font-size: 13px;
+  font-weight: 400 !important;
+  cursor: text;
+  transition: .2s ease-out;
+  letter-spacing: .3px;
+}
+.active-label label {
+  font-size: 11px;
+  top: -11px;
+  color: #32CE6F;
+}
+.tiny-label {
+  font-size: 11px !important;
+  top: -11px !important;
+}
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  background: transparent;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  transition: all .3s ease;
+}
+input[type="text"].form-control:focus, input[type="email"].form-control:focus, input[type="password"].form-control:focus, textarea.form-control:focus {
+  outline: none;
+  border-bottom: 1px solid #32CE6F !important;
+}
+.checkbox {
+  display: inline-block !important;
+  margin-left: 0px !important;
+  margin-bottom: 40px !important;
+}
+
+.no-results {
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 25px;
+  display: inline-block;
+  width: 100%;
+}
+.no-results p {
+  font-size: 17px;
+  color: #888;
+}
+.building {
+  max-width: 105px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 33px;
+  margin-bottom: 40px;
+}
+.widget-container {
+  padding: 15px 11px;
+  padding-bottom: 6px;
+  margin-top: 0px;
+}
+.widget {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 7px 14px 0 rgba(50,50,93,.015), 0 3px 6px 0 rgba(0,0,0,.015);
+  border-radius: 3px;
+  margin-top: 32px;
+}
+.widget .name {
+  font-size: 16px;
+  padding-top: 22px;
+  padding-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.user-circle {
+  text-align: center;
+  padding-top: 17px;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  border-radius: 300px;
+  background: #fff;
+  border: 5px solid #32ce6f;
+}
+.user-circle i {
+  font-size: 100px;
+  color: #fff;
+}
+.user-letter {
+  font-size: 55px;
+  color: #32ce6f;
+}
+.userInfo {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  border-top: 1px solid rgba(0,0,0,.05);
+  margin-top: 22px;
+  padding-left: 11px;
+}
+.userInfo i {
+  font-size: 27px;
+  padding-right: 12px;
+  vertical-align: middle;
+  color: #32ce6f;
+  padding-top: 7px;
+  display: inline-block;
+}
+.userInfo p {
+  color: #888888;
+  margin-bottom: 2px;
+}
+.border-button {
+  color: #bbb !important;
+  border: 1px solid #bbb;
+  padding: 10px 50px;
+  background: transparent;
+  margin-top: 29px;
+  display: block;
+  padding-top: 13px;
+  border-radius: 3px;
+  text-align: center;
+  transition: all .3s ease;
+}
+.border-button:visited {
+  color: #bbb !important;
+}
+.border-button:hover {
+  color: #fff !important;
+  text-decoration: none;
+  background: #32CE6F;
+  border: 1px solid #32CE6F;
+}
+.home-list {
+  min-height: 425px;
+  margin-bottom: 0px;
+  padding: 30px 35px;
+}
+.home-list .building {
+  max-width: 115px;
+  margin-top: 26px;
+  margin-bottom: 31px;
+}
+.partner-list {
+  padding: 35px !important;
+  min-height: 305px;
+  padding-bottom: 18px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.partner-list .building {
+  margin-bottom: 0px;
+}
+.widget-title {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-bottom: 15px;
+}
+.list-group-item {
+  display: inline-block !important;
+  width: 100% !important;
+  margin-top: 20px !important;
+  border-radius: 0px !important;
+}
+.list-group-item .col-sm-2, .list-group-item .col-sm-1 {
+  padding: 0px !important;
+}
+.list-group-item h5 {
+  line-height: 20px;
+  padding-top: 2px;
+  color: #888;
+}
+.btn-view {
+  float: right;
+  height: 54px;
+  display: block !important;
+  width: 100% !important;
+  font-size: 16px !important;
+  color: #fff !important;
+  margin-top: 3px;
+  border-radius: 3px !important;
+  background: #32CE6F !important;
+  padding-top: 9px !important;
+}
+.pdf {
+  background: #efefef !important;
+  color: #666 !important;
+}
+.pdf i {
+  vertical-align: middle;
+  padding-right: 6px;
+}
+.main-banner {
+  background-color: #efefef;
+  background: url('http://www.usualhouse.com/catalog/wp-content/uploads/2014/05/p106.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.tab-desc {
+  color: #32CE6F;
+  background: #fff;
+  font-size: 36px;
+  padding: 20px 50px;
+  position: absolute;
+  top: 60px;
+  padding-bottom: 13px;
+}
+.tab-address {
+  width: 100%;
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  bottom: 0;
+  padding: 30px 50px;
+  padding-bottom: 20px;
+  line-height: 1.3;
+}
+.tab-offer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 40px 55px;
+  background: #32CE6F;
+  color: #fff;
+  padding: 20px 28px;
+  font-size: 20px;
+  padding-bottom: 15px;
+  border-radius: 3px;
+}
+.tab-offer i {
+  vertical-align: middle;
+  margin-right: 6px;
+  color: rgba(0,0,0,.2);
+}
+.list-group-item .btn {
+  border-radius: 0px !important;
+}
+.red {
+  background: #e74c3c !important;
+}
+.grey {
+  background: #efefef !important;
+  color: #888 !important;
+}
+.partners-container {
+  padding: 20px 35px;
+  text-align: center;
+}
+.login-background {
+  background: url('http://hatchingbigideas.com/development/wp-content/uploads/2016/01/zailey-header.jpg');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.signup-background {
+  background: url('http://hatchingbigideas.com/development/wp-content/uploads/2016/01/zailey-header.jpg');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.login-form {
+  background: #fff;
+  box-shadow: rgba(29,29,31,0.15) 0 10px 60px;
+  border-radius: 0px;
+  margin-top: 32px;
+  padding-top: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 450px;
+  top: 50%;
+  transform: translateY(-60%);
+  z-index: 3;
+  text-align: center;
+  overflow: hidden;
+}
+.login-form .form-padding {
+  width: 82%;
+  margin: 0 auto;
+  position: relative;
+  margin-left: 7%;
+}
+.login-form button {
+  width: 100%;
+  display: block;
+  border-radius: 0px;
+  box-shadow: none;
+  transform: none !important;
+}
+.signup-form button {
+  width: 100%;
+  display: block;
+}
+.login-form input[type="text"], .login-form input[type="password"], .login-form input[type="email"] {
+  margin-bottom: 24px !important;
+}
+.login-form button:hover {
+  transform: none !important;
+}
+.login-form h4, .signup-form h4 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.login-form .spacer, .signup-form .spacer {
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+}
+.login-logo {
+  max-height: 30px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.signup-form {
+  background: #fff;
+  box-shadow: rgba(29,29,31,0.15) 0 10px 60px;
+  border-radius: 0px;
+  margin-top: 32px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 700px;
+  top: 50%;
+  transform: translateY(-52%);
+  z-index: 3;
+  text-align: center;
+  overflow: hidden;
+  padding: 25px 45px;
+  padding-bottom: 44px;
+}
+
+.next-btn {
+  box-shadow: none !important;
+}
+.next-btn i {
+  vertical-align: bottom;
+  padding-left: 10px;
+}
+.prev-btn {
+  background: transparent !important;
+  color: #888 !important;
+  box-shadow: none !important;
+}
+.prev-btn i {
+  vertical-align: bottom;
+  padding-right: 10px;
+}
+.prev-btn:hover {
+  background: #efefef !important;
+}
+.features {
+  display: inline-block;
+  padding-top: 45px;
+  width: 100%;
+}
+textarea.form-control {
+  height: auto;
+  min-height: 160px;
+  resize: none;
+  padding: 18px !important;
+  border: 1px solid #e4e4e4 !important;
+  border-radius: 3px !important;
+}
+.small-select {
+  min-height: 95px !important;
+}
+.next-btn:hover .tab-content {
+  transform: translateX(20px) !important;
+}
+ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+			color: #222;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+
+		ul.tabs li.current{
+			background: #ededed;
+			color: #222;
+		}
+
+		.tab-content{
+			display: none;
+			padding: 5px;
+      background: #fff;
+      padding: 32px;
+		}
+
+		.tab-content.current{
+			display: inline-block;
+      width: 100%;
+      box-shadow: 0 7px 14px 0 rgba(50,50,93,.015), 0 3px 6px 0 rgba(0,0,0,.015);
+      border-radius: 3px;
+      margin-top: 32px;
+      transition: all .3s ease;
+		}
