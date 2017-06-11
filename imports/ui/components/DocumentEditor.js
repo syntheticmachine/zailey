@@ -117,7 +117,7 @@ export default class DocumentEditor extends React.Component {
             </select>
           </div>
 
-          <div className="col-sm-12">
+          <div className="col-sm-6">
             <label>Zipcode</label>
             <input
               className="form-control"
@@ -154,16 +154,6 @@ export default class DocumentEditor extends React.Component {
               type="text"
               name="sqft"
               defaultValue={ doc && doc.sqft }
-            />
-          </div>
-
-          <div className="col-sm-6">
-            <label>Listing Price</label>
-            <input
-              className="form-control"
-              type="text"
-              name="price"
-              defaultValue={ doc && doc.price }
             />
           </div>
           <div className="button-container col-sm-12 text-right">
@@ -261,6 +251,32 @@ export default class DocumentEditor extends React.Component {
           <div className="button-container">
             <div className="col-sm-6">
               <span data-tab="tab-2" className="tab-link btn btn-primary prev-btn"><i className="ion-arrow-left-c"></i> Previous</span>
+            </div>
+            <div className="col-sm-6 text-right">
+              <span data-tab="tab-4" className="tab-link btn btn-primary next-btn">Next <i className="ion-arrow-right-c"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-4" className="tab-content">
+          <h3 className="page-title">4. Name Your Price</h3>
+          <div className="col-sm-12">
+            <label>Listing Price</label>
+            <input
+              className="form-control"
+              type="text"
+              name="price"
+              defaultValue={ doc && doc.price }
+            />
+            <div className="home-value">
+              <i className="ion-help-circled"></i>
+              <h5>Not Sure What Your Home's Worth?</h5>
+              <a href="https://zailey.com/home-valuations/" target="_blank" className="border-button">Find Your Home's Value</a>
+            </div>
+          </div>
+          <div className="button-container">
+            <div className="col-sm-6">
+              <span data-tab="tab-3" className="tab-link btn btn-primary prev-btn"><i className="ion-arrow-left-c"></i> Previous</span>
             </div>
             <div className="col-sm-6 text-right">
               <Button type="submit" bsStyle="success">{ doc && doc._id ? 'Save Changes' : 'Create Your Listing' }</Button>

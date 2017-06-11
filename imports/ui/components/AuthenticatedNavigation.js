@@ -10,10 +10,10 @@ const AuthenticatedNavigation = () => (
   <div>
     <div className="col-sm-8 left-nav">
       <Link to="/"><i className="ion-android-home"></i> Dashboard</Link>
-      <Link to="/listings/new"><i className="ion-android-add-circle"></i> Create New Listing</Link>
+      <Link to="/listings/new"><i className="ion-android-add-circle"></i> New Listing</Link>
+      <Link to="/"><i className="ion-chatbubble-working"></i> Offers</Link>
       <Link to="/"><i className="ion-search"></i> Local Partners</Link>
       <a href="http://zailey.com/listing-boost/"><i className="ion-arrow-graph-up-right"></i> Boost Your Listing</a>
-      {/* <Link to="/"><i className="ion-chatbubble-working"></i> Offers</Link> */}
     </div>
     <div className="col-sm-4 text-right">
       <a onClick={ handleLogout }><i></i>Logout</a>
